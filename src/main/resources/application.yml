@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: jwt
+        description: An application to understand JWT authentication
+    data:
+      mongodb:
+          host: 127.0.0.1
+          port: 27017
+          database: userDB
+jwt:
+    secret: shubham         
+    expirationTime: 100000000
+server:
+    port: 8001    
